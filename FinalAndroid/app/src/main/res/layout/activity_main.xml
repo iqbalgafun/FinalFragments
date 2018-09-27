@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBG"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/image"
+        android:src="@drawable/dream"/>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/image"
+        android:id="@+id/txt1"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kelompok TI-4G: "
+        android:textStyle="bold"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:layout_marginTop="2dp"
+        android:gravity="center"
+        android:id="@+id/txt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt1"
+        android:textColor="@android:color/black"
+        android:textStyle="italic"
+        android:text="Akbar Barokah / 1541180221" />
+
+    <TextView
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:id="@+id/txt3"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/txt2"
+        android:textStyle="italic"
+        android:text="Iqbal Fauzi Priansyah / 1541180161" />
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt3"
+        android:id="@+id/button1"
+        android:layout_centerHorizontal="true"
+        android:text="SEE"
+        android:gravity="center" />
+
+</RelativeLayout>
